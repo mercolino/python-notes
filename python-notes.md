@@ -26,3 +26,16 @@ A literal is data whose values are determined by the literal itself i.e. "123" =
 11111111 == 11_111_111
 0o == Octal [0-7]
 0x == Hexadecimal [0-9, 10(A), 11(B), 12(C), 13(D), 14(E), 15(F)]
+
+### Literals - floats
+The decimal point is essentially important in recognizing floating=point numbers in Python
+0.4 == .4
+4.0 == 4.
+3E8 == 300000000
+3.0E8 == 300000000.0
+
+### Literals - strings
+"st'ring" == str'ing
+'str"ing' == str"ing
+"str\"ing" == str"ing
+'str\'ing' == str'ing
